@@ -94,6 +94,8 @@ public class Nslookup extends CordovaPlugin {
             JSONObject obj = new JSONObject();
             ARecord rec = (ARecord) records[i];
             obj.put("address", rec.getAddress());
+            
+            obj.put("address","tototototototo");
             recordArray.put(obj);
           }
         } else if (type.equals("AAAA")) {
