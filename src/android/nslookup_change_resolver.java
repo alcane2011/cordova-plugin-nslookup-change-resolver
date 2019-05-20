@@ -13,7 +13,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-public class Nslookup extends CordovaPlugin {
+public class nslookup_change_resolver extends CordovaPlugin {
   public static final String TAG = "Nslookup";
 
   @Override
