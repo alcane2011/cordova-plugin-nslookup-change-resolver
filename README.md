@@ -7,11 +7,11 @@ This plugin implements the [`nslookup` software utility](https://en.wikipedia.or
 
 ## Installation
 
-> cordova plugin add cordova-plugin-nslookup
+> cordova plugin add nslookup_change_resolver
 
 or
 
-> cordova plugin add https://github.com/t1st3/cordova-plugin-nslookup.git
+> cordova plugin add https://github.com/alcane2011/cordova-plugin-nslookup-change-resolver.git
 
 ## Usage
 
