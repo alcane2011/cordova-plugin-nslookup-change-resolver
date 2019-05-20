@@ -4,7 +4,7 @@
 	<!-- name of the plugin -->
 	<name>cordova-nslookup-change-resolver</name>
 	<!-- js path of the plugin -->
-	<js-module name="cordova-plugin-nslookup-change-resolver" src="www/nslookup_change_resolver.js">
+	<js-module name="Nslookup to a specific dns server" src="www/nslookup_change_resolver.js">
 		<!-- cordova wireing of the plugin -->
 		<clobbers target="cordova.plugins.nslookup-change-resolver" />
 	</js-module>
