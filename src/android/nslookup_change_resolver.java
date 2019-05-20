@@ -1,4 +1,4 @@
-package org.tiste.cordova.nslookup;
+package org.alcane2011.cordova.nslookup_change_resolver.java;
 
 import org.xbill.DNS.*;
 
