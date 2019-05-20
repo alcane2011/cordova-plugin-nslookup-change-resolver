@@ -1,5 +1,5 @@
 
-# nslookup_change_resolver
+# cordova-nslookup-change-resolver
 
 [![NPM version](https://img.shields.io/npm/v/cordova-plugin-nslookup.svg)](https://www.npmjs.org/package/cordova-plugin-nslookup)
 
@@ -7,7 +7,7 @@ This plugin implements the [`nslookup` software utility](https://en.wikipedia.or
 
 ## Installation
 
-> cordova plugin add nslookup_change_resolver
+> cordova plugin add cordova-plugin-nslookup-change-resolver
 
 or
 
