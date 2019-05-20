@@ -86,15 +86,17 @@ public class nslookup_change_resolver extends CordovaPlugin {
         Lookup test;
         JSONArray recordArray = new JSONArray();
         if (type.equals("A")) {
-          test = new Lookup(query, Type.A);
+          /*test = new Lookup(query, Type.A);
           SimpleResolver resolver = new SimpleResolver("8.8.8.8");
           resolver.setTimeout(5);
           test.setResolver(resolver);
           records = test.run();
+          */
+          records = new Lookup(query, Type.A).run();
           for (int i = 0; i < records.length; i++) {
             JSONObject obj = new JSONObject();
             ARecord rec = (ARecord) records[i];
-            obj.put("address1", rec.getAddress());
+            obj.put("address", rec.getAddress());
             recordArray.put(obj);
           }
         } else if (type.equals("AAAA")) {
