@@ -83,13 +83,14 @@ public class Nslookup extends CordovaPlugin {
     } else {
       try {
         Record [] records;
+        Lookup test;
         JSONArray recordArray = new JSONArray();
         if (type.equals("A")) {
-          records = new Lookup(query, Type.A);
+          test = new Lookup(query, Type.A);
           SimpleResolver resolver = new SimpleResolver("8.8.8.8");
           resolver.setTimeout(5);
-          records.setResolver(resolver);
-          records.run();
+          test.setResolver(resolver);
+          records = test.run();
           for (int i = 0; i < records.length; i++) {
             JSONObject obj = new JSONObject();
             ARecord rec = (ARecord) records[i];
