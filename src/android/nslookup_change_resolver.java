@@ -94,9 +94,7 @@ public class nslookup_change_resolver extends CordovaPlugin {
           for (int i = 0; i < records.length; i++) {
             JSONObject obj = new JSONObject();
             ARecord rec = (ARecord) records[i];
-            obj.put("address", rec.getAddress());
-            
-            obj.put("address","tototototototo");
+            obj.put("address1", rec.getAddress());
             recordArray.put(obj);
           }
         } else if (type.equals("AAAA")) {
