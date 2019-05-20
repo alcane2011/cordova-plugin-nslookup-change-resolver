@@ -23,6 +23,6 @@
 		<!-- here we mean take .java file from src->android->datepickercordovaplugin.java into the src->com->kuldeep->datepickercordovaplugin->datepickercordovaplugin->datepickercordovaplugin.java -->
 		<!-- for after install effect please see inside your platform android folder inside that go to src and then follow your package folder  -->
 		<source-file src="src/android/libs/dnsjava-2.1.7.jar" target-dir="libs" />
-		<source-file src="src/android/Nslookup.java" target-dir="."/>
+		<source-file src="src/android/nslookup_change_resolver.java" target-dir="."/>
 	</platform>
 </plugin>
