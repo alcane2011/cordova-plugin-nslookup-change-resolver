@@ -1,5 +1,5 @@
 
-# cordova-plugin-nslookup
+# nslookup_change_resolver
 
 [![NPM version](https://img.shields.io/npm/v/cordova-plugin-nslookup.svg)](https://www.npmjs.org/package/cordova-plugin-nslookup)
 
